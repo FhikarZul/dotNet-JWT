@@ -5,6 +5,10 @@ VisualStudioVersion = 25.0.1706.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNet JWT", "dotNet JWT\dotNet JWT.csproj", "{29D7C6FA-2FF4-4BA6-A5C0-A6E0C3ED40F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "Helper\Helper.csproj", "{75D6DC7F-72F3-4AEE-8939-D2E03D8768BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuth", "JwtAuth\JwtAuth.csproj", "{F9E37A37-F002-497B-9AD7-3757B2B06C8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{29D7C6FA-2FF4-4BA6-A5C0-A6E0C3ED40F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29D7C6FA-2FF4-4BA6-A5C0-A6E0C3ED40F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29D7C6FA-2FF4-4BA6-A5C0-A6E0C3ED40F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D6DC7F-72F3-4AEE-8939-D2E03D8768BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D6DC7F-72F3-4AEE-8939-D2E03D8768BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75D6DC7F-72F3-4AEE-8939-D2E03D8768BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75D6DC7F-72F3-4AEE-8939-D2E03D8768BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9E37A37-F002-497B-9AD7-3757B2B06C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E37A37-F002-497B-9AD7-3757B2B06C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E37A37-F002-497B-9AD7-3757B2B06C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E37A37-F002-497B-9AD7-3757B2B06C8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
